@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: "Lora", serif;
+    color: white;
+    background-color: #00000040;
+}
+
+.container {
+    flex-direction: row;
+}
+
+canvas {
+    width: 90vw;
+    height: 60vh;
+}
+
+#ui-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

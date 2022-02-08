@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Scaling - 13519180</title>
+    </head>
+    <body>
+        <div class="canvas-container">
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="container">
+            <div id="ui-container">
+                <div id="ui">
+                    <div class="sliders">
+                        <h4>X Axis</h4>
+                        <input type="range" name="slider-x" id="slider-x" />
+                    </div>
+                    <div class="sliders">
+                        <h4>Y Axis</h4>
+                        <input type="range" name="slider-y" id="slider-y" />
+                    </div>
+                    <div class="sliders">
+                        <h4>X Scaler</h4>
+                        <input type="range" name="x-scaler" id="x-scaler" />
+                    </div>
+                    <div class="sliders">
+                        <h4>Y Scaler</h4>
+                        <input type="range" name="y-scaler" id="y-scaler" />
+                    </div>
+                </div>
+                <div id="rotation"></div>
+            </div>
+        </div>
+        <script src="../dependencies/jquery-1.7.1.min.js"></script>
+        <script src="../dependencies/jquery-ui-1.8.16.custom.min.js"></script>
+        <script src="../dependencies/jquery.mousecapture.js"></script>
+        <script src="../dependencies/jquery.gman.ui.js"></script>
+        <script src="../dependencies/jquery-gman-circle.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>
